@@ -1,0 +1,4 @@
+﻿Rodar o antlr4 para gerar o parser e o lexer
+antlr4 -Dlanguage=CSharp .\Flexar.g4 -o Grammar/ -visitor
+
+Run the project
