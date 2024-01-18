@@ -2,4 +2,4 @@
 antlr4 -Dlanguage=CSharp .\Flexar.g4 -o Grammar/ -visitor
 
 Run the project
-dotnet run --project .\Flexar.Main\
+dotnet run --project .\Flexar.Main\ -- ./Flexar.Examples/Project

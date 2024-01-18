@@ -635,14 +635,14 @@ enum_attribute
 
 expression
     : class_new_instance
-    | func_call
-    | anonymous_func
+    | POINTER_OP? func_call
+    | POINTER_OP? anonymous_func
     | value
-    | method_call
-    | namespace_call
-    | attribute_call
+    | POINTER_OP? method_call
+    | POINTER_OP? namespace_call
+    | POINTER_OP? attribute_call
     | expression_math
-    | composed_value
+    | POINTER_OP? composed_value
     | and_expression
     | expression IS type
     | expression comparision_operator expression
@@ -651,6 +651,10 @@ expression
     | (type | NAME) OPEN_PAREN expression CLOSE_PAREN
     | NAME
     | NULL
+    ;
+
+POINTER_OP
+    : STAR | BIT_AND
     ;
 
 composed_value
@@ -927,7 +931,7 @@ return_statement
 // Variable
 
 variable_declaration
-    : NAME (COLON type) (ASSIGN expression)?
+    : NAME (QUESTION? COLON type) (ASSIGN expression)?
     ;
 
 variable_assign
@@ -959,9 +963,8 @@ assing
 // Type
 
 type
-    : (CONST? final_type (
-        QUESTION
-        | OPEN_BRACKET (INT_NUM | DYN | NAME)? CLOSE_BRACKET
+    : (CONST? STAR? final_type (
+        OPEN_BRACKET (INT_NUM | DYN | NAME)? CLOSE_BRACKET
         | OPEN_BRACKET final_type OPEN_PAREN (INT_NUM | DYN | NAME)? CLOSE_PAREN CLOSE_BRACKET
         )*)
     // callback
