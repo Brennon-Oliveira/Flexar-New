@@ -1,7 +1,9 @@
 ﻿
 using Antlr4.Runtime;
+using Flexar.Error;
+using Flexar.FirstPass;
 
-namespace Flexar;
+namespace Flexar.Main;
 
 class Program
 {
@@ -22,7 +24,8 @@ class Program
         // Processar todos os arquivos .fl no diretório
         foreach (string file in Directory.GetFiles(directoryPath, "*.fl"))
         {
-            ProcessFile(file);
+            ProcessFile processFile = new ProcessFile(file);
+            processFile.Process();
         }
 
         // Recursivamente processar subdiretórios
@@ -30,24 +33,11 @@ class Program
         {
             ProcessDirectory(subDirectory);
         }
+
+        // Imprimir erros
+        ErrorController.PrintErrors();
     }
 
-    static void ProcessFile(string filePath)
-    {
-        Console.WriteLine($"Processando arquivo: {filePath}");
-
-        // Aqui você lê o conteúdo do arquivo
-        string input = File.ReadAllText(filePath);
-
-        // E aqui você aplica o lexer e o parser
-        AntlrInputStream inputStream = new AntlrInputStream(input);
-        FlexarLexer lexer = new FlexarLexer(inputStream);
-        CommonTokenStream tokenStream = new CommonTokenStream(lexer);
-        FlexarParser parser = new FlexarParser(tokenStream);
-
-        parser.program();
-
-        Console.WriteLine("Arquivo processado com sucesso.");
-    }
+    
 }
 

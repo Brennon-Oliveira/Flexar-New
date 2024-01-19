@@ -23,11 +23,11 @@ class Person {
     }
 
     private func sayHello(){
-        std::println(`Hello ${this.name}!`)
+        std::println(`Hello ${this.name}!`
     }
 
     private func sayAge(){
-        std::println(`I'm ${this.age} years old!`)
+        std::println(`I'm ${this.age} years old!`
     }
 }
 
@@ -46,4 +46,14 @@ func main() int{
     text2 = text
 
     return 0
+}
+
+func gretting(name: char[size]){
+    std::println(`Hello ${name}!`)
+}
+
+func pointers(ptr: *int){
+    std::println(`${ptr}: {*ptr}}`)
+    num: int = 12
+    std::println(`${&num}: ${num}`)
 }

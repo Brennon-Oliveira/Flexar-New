@@ -5,9 +5,15 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flexar.FirstPass", "Flexar.FirstPass\Flexar.FirstPass.csproj", "{60616AE1-5C34-45D5-8426-1D9EDB01D369}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flexar.Main", "Flexar.Main\Flexar.Main.csproj", "{1FF3CBE6-0ADF-4D47-A7B9-B5A43F7B36FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flexar.Main", "Flexar.Main\Flexar.Main.csproj", "{1FF3CBE6-0ADF-4D47-A7B9-B5A43F7B36FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flexar.Grammar", "Flexar.Grammar\Flexar.Grammar.csproj", "{2F2172FC-6237-477F-B775-2E3E78CCB255}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flexar.Grammar", "Flexar.Grammar\Flexar.Grammar.csproj", "{2F2172FC-6237-477F-B775-2E3E78CCB255}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flexar.Error", "Flexar.Error\Flexar.Error.csproj", "{0B428102-CB3F-4F72-82FA-D4F365FB462F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flexar.Examples", "Flexar.Examples\Flexar.Examples.csproj", "{708A079E-DA43-4377-A3F1-6666046A081E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flexar.Utils", "Flexar.Utils\Flexar.Utils.csproj", "{5881B645-FF53-4A20-A2AC-0778679A0CA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{2F2172FC-6237-477F-B775-2E3E78CCB255}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F2172FC-6237-477F-B775-2E3E78CCB255}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F2172FC-6237-477F-B775-2E3E78CCB255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B428102-CB3F-4F72-82FA-D4F365FB462F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B428102-CB3F-4F72-82FA-D4F365FB462F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B428102-CB3F-4F72-82FA-D4F365FB462F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B428102-CB3F-4F72-82FA-D4F365FB462F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{708A079E-DA43-4377-A3F1-6666046A081E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708A079E-DA43-4377-A3F1-6666046A081E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708A079E-DA43-4377-A3F1-6666046A081E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708A079E-DA43-4377-A3F1-6666046A081E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5881B645-FF53-4A20-A2AC-0778679A0CA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5881B645-FF53-4A20-A2AC-0778679A0CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5881B645-FF53-4A20-A2AC-0778679A0CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5881B645-FF53-4A20-A2AC-0778679A0CA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
