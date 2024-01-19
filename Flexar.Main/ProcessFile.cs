@@ -22,11 +22,7 @@ class ProcessFile {
     {
         Console.WriteLine($"Processando arquivo: {filePath}");
 
-        // Aqui você lê o conteúdo do arquivo
         string input = File.ReadAllText(filePath);
-
-        // E aqui você aplica o lexer e o parser
-        
         CommonTokenStream tokenStream = ExecuteLexer(input);
         FlexarParser.ProgramContext program = ExecuteParser(tokenStream);
         Console.WriteLine("Erros: " + parser.NumberOfSyntaxErrors);

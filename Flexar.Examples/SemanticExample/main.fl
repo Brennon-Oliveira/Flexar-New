@@ -23,11 +23,11 @@ class Person {
     }
 
     private func sayHello(){
-        std::println(`Hello ${this.name}!`
+        std::println(`Hello ${this.name}!`)
     }
 
     private func sayAge(){
-        std::println(`I'm ${this.age} years old!`
+        std::println(`I'm ${this.age} years old!`)
     }
 }
 

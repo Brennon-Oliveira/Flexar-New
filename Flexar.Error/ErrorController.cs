@@ -28,8 +28,8 @@ namespace Flexar.Error
                 {
                     Console.WriteLine($"{errorFile}:");
                     Console.WriteLine($"\t{message}");
-                    Console.WriteLine("==================");
                 }
+                Console.WriteLine("==================");
             }
         }
     }

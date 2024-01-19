@@ -1,4 +1,4 @@
-// Generated from /workspaces/Flexar-New/Flexar.Grammar/Flexar.g4 by ANTLR 4.13.1
+// Generated from c://Users//brenn//source//repos//Flexar//Flexar.Grammar//Flexar.g4 by ANTLR 4.13.1
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.*;
@@ -206,14 +206,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_program; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterProgram(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitProgram(this);
-		}
 	}
 
 	public final ProgramContext program() throws RecognitionException {
@@ -291,14 +283,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_program_rule; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterProgram_rule(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitProgram_rule(this);
-		}
 	}
 
 	public final Program_ruleContext program_rule() throws RecognitionException {
@@ -384,14 +368,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_import_group; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterImport_group(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitImport_group(this);
-		}
 	}
 
 	public final Import_groupContext import_group() throws RecognitionException {
@@ -441,14 +417,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_import_rule; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterImport_rule(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitImport_rule(this);
-		}
 	}
 
 	public final Import_ruleContext import_rule() throws RecognitionException {
@@ -546,14 +514,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_import_namespace; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterImport_namespace(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitImport_namespace(this);
-		}
 	}
 
 	public final Import_namespaceContext import_namespace() throws RecognitionException {
@@ -616,14 +576,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_namespace_name; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterNamespace_name(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitNamespace_name(this);
-		}
 	}
 
 	public final Namespace_nameContext namespace_name() throws RecognitionException {
@@ -675,14 +627,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_namespace; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterNamespace(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitNamespace(this);
-		}
 	}
 
 	public final NamespaceContext namespace() throws RecognitionException {
@@ -727,14 +671,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_namespace_call; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterNamespace_call(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitNamespace_call(this);
-		}
 	}
 
 	public final Namespace_callContext namespace_call() throws RecognitionException {
@@ -808,14 +744,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_class; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterClass(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitClass(this);
-		}
 	}
 
 	public final ClassContext class_() throws RecognitionException {
@@ -891,14 +819,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_class_extends; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterClass_extends(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitClass_extends(this);
-		}
 	}
 
 	public final Class_extendsContext class_extends() throws RecognitionException {
@@ -978,14 +898,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_class_implements; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterClass_implements(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitClass_implements(this);
-		}
 	}
 
 	public final Class_implementsContext class_implements() throws RecognitionException {
@@ -1062,14 +974,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_class_body; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterClass_body(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitClass_body(this);
-		}
 	}
 
 	public final Class_bodyContext class_body() throws RecognitionException {
@@ -1125,14 +1029,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_class_body_rule; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterClass_body_rule(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitClass_body_rule(this);
-		}
 	}
 
 	public final Class_body_ruleContext class_body_rule() throws RecognitionException {
@@ -1188,14 +1084,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_class_attribute; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterClass_attribute(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitClass_attribute(this);
-		}
 	}
 
 	public final Class_attributeContext class_attribute() throws RecognitionException {
@@ -1230,14 +1118,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_privacy_modifier; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterPrivacy_modifier(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitPrivacy_modifier(this);
-		}
 	}
 
 	public final Privacy_modifierContext privacy_modifier() throws RecognitionException {
@@ -1285,14 +1165,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_class_method; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterClass_method(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitClass_method(this);
-		}
 	}
 
 	public final Class_methodContext class_method() throws RecognitionException {
@@ -1348,14 +1220,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_abstract_method; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterAbstract_method(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitAbstract_method(this);
-		}
 	}
 
 	public final Abstract_methodContext abstract_method() throws RecognitionException {
@@ -1422,14 +1286,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_class_modifier; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterClass_modifier(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitClass_modifier(this);
-		}
 	}
 
 	public final Class_modifierContext class_modifier() throws RecognitionException {
@@ -1528,14 +1384,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_constructor; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterConstructor(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitConstructor(this);
-		}
 	}
 
 	public final ConstructorContext constructor() throws RecognitionException {
@@ -1616,14 +1464,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_class_new_instance; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterClass_new_instance(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitClass_new_instance(this);
-		}
 	}
 
 	public final Class_new_instanceContext class_new_instance() throws RecognitionException {
@@ -1716,14 +1556,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_method_call; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterMethod_call(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitMethod_call(this);
-		}
 	}
 
 	public final Method_callContext method_call() throws RecognitionException {
@@ -1785,14 +1617,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_attribute_call; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterAttribute_call(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitAttribute_call(this);
-		}
 	}
 
 	public final Attribute_callContext attribute_call() throws RecognitionException {
@@ -1877,14 +1701,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_interface; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterInterface(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitInterface(this);
-		}
 	}
 
 	public final InterfaceContext interface_() throws RecognitionException {
@@ -1940,14 +1756,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_interface_extends; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterInterface_extends(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitInterface_extends(this);
-		}
 	}
 
 	public final Interface_extendsContext interface_extends() throws RecognitionException {
@@ -2024,14 +1832,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_interface_body; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterInterface_body(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitInterface_body(this);
-		}
 	}
 
 	public final Interface_bodyContext interface_body() throws RecognitionException {
@@ -2084,14 +1884,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_interface_body_rule; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterInterface_body_rule(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitInterface_body_rule(this);
-		}
 	}
 
 	public final Interface_body_ruleContext interface_body_rule() throws RecognitionException {
@@ -2146,14 +1938,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_interface_method; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterInterface_method(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitInterface_method(this);
-		}
 	}
 
 	public final Interface_methodContext interface_method() throws RecognitionException {
@@ -2215,14 +1999,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_interface_attribute; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterInterface_attribute(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitInterface_attribute(this);
-		}
 	}
 
 	public final Interface_attributeContext interface_attribute() throws RecognitionException {
@@ -2263,14 +2039,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_struct; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterStruct(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitStruct(this);
-		}
 	}
 
 	public final StructContext struct() throws RecognitionException {
@@ -2312,14 +2080,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_struct_body; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterStruct_body(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitStruct_body(this);
-		}
 	}
 
 	public final Struct_bodyContext struct_body() throws RecognitionException {
@@ -2369,14 +2129,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_struct_attribute; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterStruct_attribute(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitStruct_attribute(this);
-		}
 	}
 
 	public final Struct_attributeContext struct_attribute() throws RecognitionException {
@@ -2411,14 +2163,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_enum; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterEnum(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitEnum(this);
-		}
 	}
 
 	public final EnumContext enum_() throws RecognitionException {
@@ -2460,14 +2204,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_enum_body; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterEnum_body(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitEnum_body(this);
-		}
 	}
 
 	public final Enum_bodyContext enum_body() throws RecognitionException {
@@ -2517,14 +2253,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_enum_attribute; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterEnum_attribute(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitEnum_attribute(this);
-		}
 	}
 
 	public final Enum_attributeContext enum_attribute() throws RecognitionException {
@@ -2618,14 +2346,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_expression; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterExpression(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitExpression(this);
-		}
 	}
 
 	public final ExpressionContext expression() throws RecognitionException {
@@ -2908,14 +2628,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_composed_value; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterComposed_value(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitComposed_value(this);
-		}
 	}
 
 	public final Composed_valueContext composed_value() throws RecognitionException {
@@ -2984,14 +2696,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_list_value; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterList_value(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitList_value(this);
-		}
 	}
 
 	public final List_valueContext list_value() throws RecognitionException {
@@ -3066,14 +2770,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_map_value; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterMap_value(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitMap_value(this);
-		}
 	}
 
 	public final Map_valueContext map_value() throws RecognitionException {
@@ -3152,14 +2848,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_tuple_value; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterTuple_value(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitTuple_value(this);
-		}
 	}
 
 	public final Tuple_valueContext tuple_value() throws RecognitionException {
@@ -3238,14 +2926,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_named_tuple_value; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterNamed_tuple_value(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitNamed_tuple_value(this);
-		}
 	}
 
 	public final Named_tuple_valueContext named_tuple_value() throws RecognitionException {
@@ -3319,14 +2999,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_and_expression; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterAnd_expression(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitAnd_expression(this);
-		}
 	}
 
 	public final And_expressionContext and_expression() throws RecognitionException {
@@ -3399,14 +3071,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_or_expression; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterOr_expression(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitOr_expression(this);
-		}
 	}
 
 	public final Or_expressionContext or_expression() throws RecognitionException {
@@ -3479,14 +3143,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_xor_expression; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterXor_expression(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitXor_expression(this);
-		}
 	}
 
 	public final Xor_expressionContext xor_expression() throws RecognitionException {
@@ -3557,14 +3213,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_not_expression; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterNot_expression(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitNot_expression(this);
-		}
 	}
 
 	public final Not_expressionContext not_expression() throws RecognitionException {
@@ -3620,14 +3268,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_expression_math; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterExpression_math(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitExpression_math(this);
-		}
 	}
 
 	public final Expression_mathContext expression_math() throws RecognitionException {
@@ -3702,14 +3342,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_term_math; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterTerm_math(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitTerm_math(this);
-		}
 	}
 
 	public final Term_mathContext term_math() throws RecognitionException {
@@ -3782,14 +3414,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_factor_math; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterFactor_math(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitFactor_math(this);
-		}
 	}
 
 	public final Factor_mathContext factor_math() throws RecognitionException {
@@ -3864,14 +3488,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_bitwise_math; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterBitwise_math(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitBitwise_math(this);
-		}
 	}
 
 	public final Bitwise_mathContext bitwise_math() throws RecognitionException {
@@ -3946,14 +3562,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_shift_math; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterShift_math(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitShift_math(this);
-		}
 	}
 
 	public final Shift_mathContext shift_math() throws RecognitionException {
@@ -4031,14 +3639,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_unary_math; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterUnary_math(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitUnary_math(this);
-		}
 	}
 
 	public final Unary_mathContext unary_math() throws RecognitionException {
@@ -4101,14 +3701,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_before_unary; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterBefore_unary(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitBefore_unary(this);
-		}
 	}
 
 	public final Before_unaryContext before_unary() throws RecognitionException {
@@ -4171,14 +3763,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_after_unary; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterAfter_unary(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitAfter_unary(this);
-		}
 	}
 
 	public final After_unaryContext after_unary() throws RecognitionException {
@@ -4229,14 +3813,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_math_value; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterMath_value(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitMath_value(this);
-		}
 	}
 
 	public final Math_valueContext math_value() throws RecognitionException {
@@ -4288,14 +3864,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_parenthesis_expression; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterParenthesis_expression(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitParenthesis_expression(this);
-		}
 	}
 
 	public final Parenthesis_expressionContext parenthesis_expression() throws RecognitionException {
@@ -4332,14 +3900,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_bitwise_operator; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterBitwise_operator(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitBitwise_operator(this);
-		}
 	}
 
 	public final Bitwise_operatorContext bitwise_operator() throws RecognitionException {
@@ -4380,14 +3940,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_shift_operator; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterShift_operator(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitShift_operator(this);
-		}
 	}
 
 	public final Shift_operatorContext shift_operator() throws RecognitionException {
@@ -4429,14 +3981,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_term_operator; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterTerm_operator(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitTerm_operator(this);
-		}
 	}
 
 	public final Term_operatorContext term_operator() throws RecognitionException {
@@ -4477,14 +4021,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_factor_operator; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterFactor_operator(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitFactor_operator(this);
-		}
 	}
 
 	public final Factor_operatorContext factor_operator() throws RecognitionException {
@@ -4529,14 +4065,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_comparision_operator; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterComparision_operator(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitComparision_operator(this);
-		}
 	}
 
 	public final Comparision_operatorContext comparision_operator() throws RecognitionException {
@@ -4580,14 +4108,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_value; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterValue(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitValue(this);
-		}
 	}
 
 	public final ValueContext value() throws RecognitionException {
@@ -4658,14 +4178,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_statement; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterStatement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitStatement(this);
-		}
 	}
 
 	public final StatementContext statement() throws RecognitionException {
@@ -4786,14 +4298,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_new_scope; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterNew_scope(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitNew_scope(this);
-		}
 	}
 
 	public final New_scopeContext new_scope() throws RecognitionException {
@@ -4854,14 +4358,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_for_statement; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterFor_statement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitFor_statement(this);
-		}
 	}
 
 	public final For_statementContext for_statement() throws RecognitionException {
@@ -4922,14 +4418,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_for_rule; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterFor_rule(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitFor_rule(this);
-		}
 	}
 
 	public final For_ruleContext for_rule() throws RecognitionException {
@@ -4985,14 +4473,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_for_in; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterFor_in(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitFor_in(this);
-		}
 	}
 
 	public final For_inContext for_in() throws RecognitionException {
@@ -5060,14 +4540,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_full_for; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterFull_for(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitFull_for(this);
-		}
 	}
 
 	public final Full_forContext full_for() throws RecognitionException {
@@ -5136,14 +4608,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_while_statement; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterWhile_statement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitWhile_statement(this);
-		}
 	}
 
 	public final While_statementContext while_statement() throws RecognitionException {
@@ -5213,14 +4677,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_do_while_statement; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterDo_while_statement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitDo_while_statement(this);
-		}
 	}
 
 	public final Do_while_statementContext do_while_statement() throws RecognitionException {
@@ -5291,14 +4747,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_switch_statement; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterSwitch_statement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitSwitch_statement(this);
-		}
 	}
 
 	public final Switch_statementContext switch_statement() throws RecognitionException {
@@ -5365,14 +4813,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_switch_case; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterSwitch_case(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitSwitch_case(this);
-		}
 	}
 
 	public final Switch_caseContext switch_case() throws RecognitionException {
@@ -5467,14 +4907,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_try_statement; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterTry_statement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitTry_statement(this);
-		}
 	}
 
 	public final Try_statementContext try_statement() throws RecognitionException {
@@ -5559,14 +4991,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_catch_statement; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterCatch_statement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitCatch_statement(this);
-		}
 	}
 
 	public final Catch_statementContext catch_statement() throws RecognitionException {
@@ -5634,14 +5058,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_finally_statement; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterFinally_statement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitFinally_statement(this);
-		}
 	}
 
 	public final Finally_statementContext finally_statement() throws RecognitionException {
@@ -5713,14 +5129,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_if_statement; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterIf_statement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitIf_statement(this);
-		}
 	}
 
 	public final If_statementContext if_statement() throws RecognitionException {
@@ -5813,14 +5221,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_elif_statement; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterElif_statement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitElif_statement(this);
-		}
 	}
 
 	public final Elif_statementContext elif_statement() throws RecognitionException {
@@ -5884,14 +5284,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_else_statement; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterElse_statement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitElse_statement(this);
-		}
 	}
 
 	public final Else_statementContext else_statement() throws RecognitionException {
@@ -5950,14 +5342,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_struct_func; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterStruct_func(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitStruct_func(this);
-		}
 	}
 
 	public final Struct_funcContext struct_func() throws RecognitionException {
@@ -6019,14 +5403,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_func; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterFunc(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitFunc(this);
-		}
 	}
 
 	public final FuncContext func() throws RecognitionException {
@@ -6098,14 +5474,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_anonymous_func; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterAnonymous_func(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitAnonymous_func(this);
-		}
 	}
 
 	public final Anonymous_funcContext anonymous_func() throws RecognitionException {
@@ -6174,14 +5542,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_func_param; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterFunc_param(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitFunc_param(this);
-		}
 	}
 
 	public final Func_paramContext func_param() throws RecognitionException {
@@ -6237,14 +5597,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_func_callback; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterFunc_callback(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitFunc_callback(this);
-		}
 	}
 
 	public final Func_callbackContext func_callback() throws RecognitionException {
@@ -6309,14 +5661,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_func_param_callback; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterFunc_param_callback(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitFunc_param_callback(this);
-		}
 	}
 
 	public final Func_param_callbackContext func_param_callback() throws RecognitionException {
@@ -6374,14 +5718,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_func_param_rule; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterFunc_param_rule(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitFunc_param_rule(this);
-		}
 	}
 
 	public final Func_param_ruleContext func_param_rule() throws RecognitionException {
@@ -6454,14 +5790,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_func_call; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterFunc_call(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitFunc_call(this);
-		}
 	}
 
 	public final Func_callContext func_call() throws RecognitionException {
@@ -6516,14 +5844,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_func_call_params; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterFunc_call_params(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitFunc_call_params(this);
-		}
 	}
 
 	public final Func_call_paramsContext func_call_params() throws RecognitionException {
@@ -6582,14 +5902,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_func_return; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterFunc_return(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitFunc_return(this);
-		}
 	}
 
 	public final Func_returnContext func_return() throws RecognitionException {
@@ -6691,14 +6003,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_func_body; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterFunc_body(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitFunc_body(this);
-		}
 	}
 
 	public final Func_bodyContext func_body() throws RecognitionException {
@@ -6766,14 +6070,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_return_statement; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterReturn_statement(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitReturn_statement(this);
-		}
 	}
 
 	public final Return_statementContext return_statement() throws RecognitionException {
@@ -6834,14 +6130,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_variable_declaration; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterVariable_declaration(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitVariable_declaration(this);
-		}
 	}
 
 	public final Variable_declarationContext variable_declaration() throws RecognitionException {
@@ -6909,14 +6197,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_variable_assign; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterVariable_assign(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitVariable_assign(this);
-		}
 	}
 
 	public final Variable_assignContext variable_assign() throws RecognitionException {
@@ -6954,14 +6234,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_variable_name; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterVariable_name(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitVariable_name(this);
-		}
 	}
 
 	public final Variable_nameContext variable_name() throws RecognitionException {
@@ -7030,14 +6302,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_assing; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterAssing(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitAssing(this);
-		}
 	}
 
 	public final AssingContext assing() throws RecognitionException {
@@ -7115,14 +6379,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_type; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterType(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitType(this);
-		}
 	}
 
 	public final TypeContext type() throws RecognitionException {
@@ -7312,14 +6568,6 @@ public class FlexarParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_final_type; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).enterFinal_type(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FlexarListener ) ((FlexarListener)listener).exitFinal_type(this);
-		}
 	}
 
 	public final Final_typeContext final_type() throws RecognitionException {
