@@ -122,6 +122,7 @@ INT_NUM=121
 FLOAT_NUM=122
 COMMENT=123
 WS=124
+POINTER_OP=125
 'import'=1
 'namespace'=2
 'export'=3

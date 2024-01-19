@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flexar.FirstPass", "Flexar.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flexar.Main", "Flexar.Main\Flexar.Main.csproj", "{1FF3CBE6-0ADF-4D47-A7B9-B5A43F7B36FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flexar.Grammar", "Flexar.Grammar\Flexar.Grammar.csproj", "{2F2172FC-6237-477F-B775-2E3E78CCB255}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1FF3CBE6-0ADF-4D47-A7B9-B5A43F7B36FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FF3CBE6-0ADF-4D47-A7B9-B5A43F7B36FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FF3CBE6-0ADF-4D47-A7B9-B5A43F7B36FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F2172FC-6237-477F-B775-2E3E78CCB255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F2172FC-6237-477F-B775-2E3E78CCB255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F2172FC-6237-477F-B775-2E3E78CCB255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F2172FC-6237-477F-B775-2E3E78CCB255}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

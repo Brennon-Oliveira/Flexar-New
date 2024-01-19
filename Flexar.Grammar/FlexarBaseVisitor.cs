@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-// Generated from .//Flexar.g4 by ANTLR 4.13.1
+// Generated from ./Flexar.Grammar/Flexar.g4 by ANTLR 4.13.1
 
 // Unreachable code detected
 #pragma warning disable 0162

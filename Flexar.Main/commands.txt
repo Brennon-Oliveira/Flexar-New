@@ -1,5 +1,5 @@
 ﻿Rodar o antlr4 para gerar o parser e o lexer
-antlr4 -Dlanguage=CSharp .\Flexar.g4 -o Grammar/ -visitor
+antlr4 -Dlanguage=CSharp ./Flexar.Grammar/Flexar.g4 -visitor
 
 Run the project
 dotnet run --project .\Flexar.Main\ -- ./Flexar.Examples/Project

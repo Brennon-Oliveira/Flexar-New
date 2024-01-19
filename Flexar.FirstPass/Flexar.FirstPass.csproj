@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Flexar.Utils\Flexar.Utils.csproj" />
+    <ProjectReference Include="..\Flexar.Grammar\Flexar.Grammar.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
