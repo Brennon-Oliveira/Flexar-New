@@ -74,7 +74,7 @@ class ClassWithInterface implements Interface {
 }
 
 struct Struct  {
-    name: string.fasdf.asdf.asdf;
+    name: string;
     age: int.int.string;
 }
 
