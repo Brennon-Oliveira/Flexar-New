@@ -1,4 +1,4 @@
-import
+import 
     std,
     math,
     use List,
@@ -8,225 +8,266 @@ import
 
 namespace main.space;
 
-class Person {
-    name: string
-    age: int
-    readonly readonlyAttribute: string = "readonly"
+// teste comentário
+// namespace main.space;
 
+export class Person {
+    private name: string;
+    age: int;
+    readonly readonlyAttribute: string = "readonly";
+    
     public Person(){}
     public Person(name: string, age: int){
-        this.name = name
-        this.age = age
+        this.name = name;
+        this.age = age;
     }
-    readonly readonlyAttribuasdaste: string = "readonly"
+    readonly readonlyAttribuasdaste: string = "readonly";
 
     public static func main(){
-        person: Person = new Person("John", 20)
-        person.presentation()
+        person: Person = new Person("John", 20);
+        person.presentation();
     }
 
     public func presentation(){
-        this.sayHello()
-        this.sayAge()
+        this.sayHello();
+        this.sayAge();
     }
 
     private func sayHello(){
-        std::println(`Hello ${this.name}!`)
+        std::println(`Hello ${this.name}!`);
     }
 
     private func sayAge(){
-        std::println(`I'm ${this.age} years old!`)
+        std::println(`I'm ${this.age} years old!`);
     }
 }
 
 abstract class AbstractClass {
-    abstract func abstractFunc()
+    abstract func abstractFunc();
 }
 
-class Class extends AbstractClass {
+export class Class extends AbstractClass {
     func abstractFunc(){
-        std::println("Hello World!")
+        std::println("Hello World!");
     }
 }
 
 interface Interface {
-    attribute: string
-    func interfaceFunc()
+    attribute: string;
+    func interfaceFunc();
+}
+
+export interface Interface extends Another {
+    attribute: string;
+    func interfaceFunc() int;
+}
+
+interface Interface extends Another.Interface, Another2.Interface {
+    attribute: string;
+    func interfaceFunc(param: int, param2: string = "John") int;
 }
 
 class ClassWithInterface implements Interface {
     func interfaceFunc(){
-        std::println("Hello World!")
+        std::println("Hello World!");
     }
 }
 
-struct Struct {
-    name: string
-    age: int
+struct Struct  {
+    name: string.fasdf.asdf.asdf;
+    age: int.int.string;
+}
+
+export struct Teste2 {
+    teste: string;
 }
 
 (t *Struct) func GetName() string {
-    return t.name.teste
+    return t.name.teste;
 }
 
 (t *Struct) func GetAge() int {
-    return t.age
+    return t.age;
 }
 
 enum Enum {
-    ONE
-    TWO
-    THREE
+    ONE,
+    TWO,
+    THREE;
+}
+
+enum Enum2 {
+    ONE = 1,
+    TWO = 2,
+    THREE = 3;
+}
+
+enum Enum3 {
+    ONE = "ONE",
+    TWO = "TWO",
+    THREE = "THREE";
+}
+
+enum Enum4 {
+    ONE = 1,
+    TWO,
+    THREE;
+}
+
+enum Enum5 {
+    ONE = dyn,
+    TWO,
+    THREE;
 }
 
 class Parent {
     func parentFunc(){
-        std::println("Hello World!")
+        std::println("Hello World!");
     }
 }
 
 class Example extends (Parent, AbstractClass) implements Interface {
     final func finalFunc(){
-        std::println("Hello World!")
+        std::println("Hello World!");
     }
 
     static func staticFunc(){
-        std::println("Hello World!")
+        std::println("Hello World!");
     }
 
     override func parentFunc(){
-        std::println("Hello World!")
+        std::println("Hello World!");
     }
 
     protected func protectedFunc(){
-        std::println("Hello World!")
+        std::println("Hello World!");
     }
 
     func funcWithDefaultParameter(name: string = "John"){
-        std::println(`Hello ${name}!`)
+        std::println(`Hello ${name}!`);
     }
 
     func funcWithVariadicParameter(name: string...){
         for (index, item in arr){
-            std::println(`Hello ${name}!`)
+            std::println(`Hello ${name}!`);
         }
     }
 
     func funcWithNamedParameter(name: string, age: int){
-        std::println(`Hello ${name}!`)
-        std::println(`I'm ${age} years old!`)
+        std::println(`Hello ${name}!`);
+        std::println(`I'm ${age} years old!`);
     }
 }
 
 func main() int {
-    print(integer)
-    text: string
-    std::printf("%s", text)
+    print(integer);
+    text: string;
+    std::printf("%s", text);
 
-    Person::main()
+    Person::main();
 
     if (integer == 1){
-        std::println("integer is 1")
+        std::println("integer is 1");
     } elif (integer == 2){
-        std::println("integer is 2")
+        std::println("integer is 2");
     } else {
-        std::println("integer is not 1 or 2")
+        std::println("integer is not 1 or 2");
     }
 
     for (i: int = 0; i < 10; i++){
-        std::println(i)
+        std::println(i);
     }
 
-    arr: int[5] = {1,2,3,4,5}
+    arr: int[5] = {1,2,3,4,5};
     for (index, item in arr){
         if (item == 3){
-            continue
+            continue;
         }
-        std::println(`arr[${index}] = ${item}`)
+        std::println(`arr[${index}] = ${item}`);
     }
 
     while (true){
-        std::println("Hello World!")
-        break
+        std::println("Hello World!");
+        break;
     }
 
     do {
-        std::println("Hello World!")
+        std::println("Hello World!");
     } while (false)
 
     switch (integer){
         case 1:
-            std::println("integer is 1")
+            std::println("integer is 1");
         case 2:
-            std::println("integer is 2")
+            std::println("integer is 2");
         default:
-            std::println("integer is not 1 or 2")
+            std::println("integer is not 1 or 2");
     }
 
     try {
-        std::println("Hello World!")
+        std::println("Hello World!");
     } catch (e: Exception){
-        std::println(e)
+        std::println(e);
     } finally {
-        std::println("Hello World!")
+        std::println("Hello World!");
     }
 
     try {
-        std::println("Hello World!")
+        std::println("Hello World!");
     } catch (e: Exception){
-        std::println(e)
+        std::println(e);
     }
 
     try {
-        std::println("Hello World!")
+        std::println("Hello World!");
     } finally {
-        std::println("Hello World!")
+        std::println("Hello World!");
     }
 
-    return 0
+    return 0;
 }
 
 func variables(){
-    integer: int // 32bits
-    integer8bits: int8 = 1
-    integer16bits: int16 = 2
-    integer32bits: int32 = 3
-    integer64bits: int64 = 4
-    unsignedInteger: uint = 5 // 32bits
-    unsignedInteger8bits: uint8 = 6
-    unsignedInteger16bits: uint16 = 7
-    unsignedInteger32bits: uint32 = 8
-    unsignedInteger64bits: uint64 = 9
-    floatNum: float // 32bits
-    float32bits: float32 = 1.5f
-    float64bits: float64 = math::PI
-    optional?: null
-    boolean: bool
-    character: char
-    text: string
-    textWith10: string[10]
-    pointerChar: *char
-    infereceNum: inf = 123
-    arr: int[5] = {1,2,3,4,5}
-    list: list = new List({1,2,3,4,5})
-    setList = new Set({1,2,3,4,5})
-    mapVar: map = {"key1": "value1", "key2": "value2"}
-    tupleVar: tuple[int(5)] = (1,2,3,4,5)
-    tupleWithNames: tuple = (a: 1, b: 2, c: 3, d: 4, e: 5)
-    person: Person = new Person("John", 20)
-    person.sayHello()
-    person2 := new Person{}
+    integer: int; // 32bits
+    integer8bits: int8 = 1;
+    integer16bits: int16 = 2;
+    integer32bits: int32 = 3;
+    integer64bits: int64 = 4;
+    unsignedInteger: uint = 5; // 32bits
+    unsignedInteger8bits: uint8 = 6;
+    unsignedInteger16bits: uint16 = 7;
+    unsignedInteger32bits: uint32 = 8;
+    unsignedInteger64bits: uint64 = 9;
+    floatNum: float; // 32bits
+    float32bits: float32 = 1.5f;
+    float64bits: float64 = math::PI;
+    optional?: null;
+    boolean: bool;
+    character: char;
+    text: string;
+    textWith10: string[10];
+    pointerChar: *char;
+    infereceNum: inf = 123;
+    arr: int[5] = {1,2,3,4,5};
+    list: list = new List({1,2,3,4,5});
+    setList = new Set({1,2,3,4,5});
+    mapVar: map = {"key1": "value1", "key2": "value2"};
+    tupleVar: tuple[int, int, char] = (1,2,'c');
+    tupleWithNames: tuple = (a: 1, b: 2, c: 3, d: 4, e: 5);
+    person: Person = new Person("John", 20);
+    person.sayHello();
+    person2 := new Person{};
 
     // const
-    integer: const int = 1
+    integer: const int = 1;
 }
 
-func gretting(name: char[size]){
-    std::println(`Hello ${name}!`)
+export func gretting(name: char[size]){
+    std::println(`Hello ${name}!`);
 }
 
 func pointers(ptr: *int){
-    std::println(`${ptr}: {*ptr}}`)
-    num: int = 12
-    std::println(`${&num}: ${num}`)
+    std::println(`${ptr}: {*ptr}}`);
+    num: int = 12;
+    std::println(`${&num}: ${num}`);
 }
